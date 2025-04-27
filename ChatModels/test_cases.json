@@ -1,0 +1,162 @@
+[
+    {
+        "description": "Verify the 'Stays' navigation link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[2]/div/ul/li[1]/a/span/div",
+        "value": null,
+        "expected": "Navigates to the stays page."
+    },
+    {
+        "description": "Verify the 'Flights' navigation link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[2]/div/ul/li[2]/a/span/div",
+        "value": null,
+        "expected": "Navigates to the flights page."
+    },
+    {
+        "description": "Verify the 'Car rentals' navigation link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[2]/div/ul/li[4]/a/span/div",
+        "value": null,
+        "expected": "Navigates to the car rentals page."
+    },
+    {
+        "description": "Verify the 'Attractions' navigation link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[2]/div/ul/li[6]/a/span/div",
+        "value": null,
+        "expected": "Navigates to the attractions page."
+    },
+    {
+        "description": "Verify the 'Sign in' link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/div",
+        "value": null,
+        "expected": "Opens the sign-in form."
+    },
+    {
+        "description": "Verify the 'Register' link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/a[2]/span",
+        "value": null,
+        "expected": "Opens the registration form."
+    },
+    {
+        "description": "Attempt to register with a valid email and password.",
+        "type": "input_field",
+        "action": "send_keys",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/a[2]/span",
+        "value": "dhruvishah116122@gmail.com",
+        "expected": "Registration is successful."
+    },
+    {
+        "description": "Attempt to register with a valid email and password.",
+        "type": "input_field",
+        "action": "send_keys",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/a[2]/span",
+        "value": "Dbms#amazon122",
+        "expected": "Registration is successful."
+    },
+    {
+        "description": "Attempt to log in with a registered email and password.",
+        "type": "input_field",
+        "action": "send_keys",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/a[2]/span",
+        "value": "dhruvishah116122@gmail.com",
+        "expected": "Login is successful."
+    },
+    {
+        "description": "Attempt to log in with a registered email and password.",
+        "type": "input_field",
+        "action": "send_keys",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/a[2]/span",
+        "value": "Dbms#amazon122",
+        "expected": "Login is successful."
+    },
+    {
+        "description": "Search for hotels in New York.",
+        "type": "input_field",
+        "action": "send_keys",
+        "xpath": "/html/body/div[3]/div[2]/div/form/div/div[4]",
+        "value": "New York",
+        "expected": "Search results for New York hotels are displayed."
+    },
+    {
+        "description": "Select check-in date.",
+        "type": "button",
+        "action": "click",
+        "xpath": "/html/body/div[3]/div[2]/div/form/div/div[2]/div/button/span/span[2]",
+        "value": null,
+        "expected": "Calendar opens to select check-in date."
+    },
+    {
+        "description": "Select check-out date.",
+        "type": "button",
+        "action": "click",
+        "xpath": "/html/body/div[3]/div[2]/div/form/div/div[2]/div/button/span/span[4]",
+        "value": null,
+        "expected": "Calendar opens to select check-out date."
+    },
+    {
+        "description": "Click the search button after selecting dates and location.",
+        "type": "button",
+        "action": "click",
+        "xpath": "/html/body/div[3]/div[2]/div/form/div/div[4]",
+        "value": null,
+        "expected": "Search results are displayed based on the criteria."
+    },
+    {
+        "description": "Verify the 'USD' currency selector is present.",
+        "type": "button",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/span[1]/button/span",
+        "value": null,
+        "expected": "Currency options are displayed."
+    },
+    {
+        "description": "Verify the 'Customer support' link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/span[3]/a",
+        "value": null,
+        "expected": "Navigates to the customer support page."
+    },
+    {
+        "description": "Verify the 'List your property' link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[1]/div[2]/a[1]/span",
+        "value": null,
+        "expected": "Navigates to the property listing page."
+    },
+    {
+        "description": "Verify the 'Airport taxis' navigation link is present and clickable.",
+        "type": "navigation",
+        "action": "click",
+        "xpath": "/html/body/div[2]/div/div/header/div/nav[2]/div/ul/li[7]/a/span/div",
+        "value": null,
+        "expected": "Navigates to the airport taxis page."
+    },
+    {
+        "description": "Verify the 'Language: English (US)' link is present and clickable.",
+        "type": "button",
+        "action": "click",
+        "xpath": "/html/body/div[6]/div[2]/div[2]/footer/div[3]/div/div[1]/span[1]/button",
+        "value": null,
+        "expected": "Language options are displayed."
+    },
+    {
+        "description": "Verify the '2 adults · 0 children · 1 room' link is present and clickable.",
+        "type": "button",
+        "action": "click",
+        "xpath": "/html/body/div[3]/div[2]/div/form/div/div[3]/div",
+        "value": null,
+        "expected": "Opens the guest and room selection options."
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[1]/a[1]",
+        "text": "Skip to content"
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/a[1]",
+        "text": ""
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[1]/span[2]/button[1]",
+        "text": "LocationAnywhere"
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[1]/span[2]/button[2]",
+        "text": "Check in / Check outAnytime"
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[1]/span[2]/button[3]",
+        "text": "GuestsAdd guests"
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/button[1]",
+        "text": "Homes"
+    },
+    {
+        "tag": "input",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/input[1]",
+        "text": ""
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/button[1]",
+        "text": "Experiences"
+    },
+    {
+        "tag": "input",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/label[1]/div[1]/span[1]/span[1]/span[1]/input[1]",
+        "text": ""
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[5]/div[2]/div[2]/button[1]",
+        "text": "Search"
+    },
+    {
+        "tag": "input",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/input[1]",
+        "text": ""
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[1]/a[1]",
+        "text": "Airbnb your home"
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[1]/div[1]/a[1]",
+        "text": ""
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/a[1]",
+        "text": ""
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]/div[1]/a[1]",
+        "text": "Sign up"
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]/div[1]/a[2]",
+        "text": "Log in"
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]/div[1]/a[3]",
+        "text": "Airbnb your home"
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]/div[1]/a[4]",
+        "text": "Host an experience"
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]/div[1]/a[5]",
+        "text": "Help Centre"
+    },
+    {
+        "tag": "a",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/a[2]",
+        "text": ""
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]",
+        "text": "Filters"
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]/span[1]/span[1]/button[1]",
+        "text": ""
+    },
+    {
+        "tag": "button",
+        "xpath": "/html/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/button[1]",
+        "text": "Show map"
+    }
+]

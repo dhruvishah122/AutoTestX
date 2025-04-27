@@ -1,0 +1,82 @@
+[
+  {
+    "description": "Verify the 'Stays' navigation link is present and clickable.",
+    "result": "Failed"
+  },
+  {
+    "description": "Verify the 'Flights' navigation link is present and clickable.",
+    "result": "Passed"
+  },
+  {
+    "description": "Verify the 'Car rentals' navigation link is present and clickable.",
+    "result": "Failed"
+  },
+  {
+    "description": "Verify the 'Attractions' navigation link is present and clickable.",
+    "result": "Passed"
+  },
+  {
+    "description": "Verify the 'Sign in' link is present and clickable.",
+    "result": "Failed"
+  },
+  {
+    "description": "Verify the 'Register' link is present and clickable.",
+    "result": "Passed"
+  },
+  {
+    "description": "Attempt to register with a valid email and password.",
+    "result": "Failed"
+  },
+  {
+    "description": "Attempt to register with a valid email and password.",
+    "result": "Failed"
+  },
+  {
+    "description": "Attempt to log in with a registered email and password.",
+    "result": "Failed"
+  },
+  {
+    "description": "Attempt to log in with a registered email and password.",
+    "result": "Failed"
+  },
+  {
+    "description": "Search for hotels in New York.",
+    "result": "Passed"
+  },
+  {
+    "description": "Select check-in date.",
+    "result": "Failed"
+  },
+  {
+    "description": "Select check-out date.",
+    "result": "Failed"
+  },
+  {
+    "description": "Click the search button after selecting dates and location.",
+    "result": "Passed"
+  },
+  {
+    "description": "Verify the 'USD' currency selector is present.",
+    "result": "Failed"
+  },
+  {
+    "description": "Verify the 'Customer support' link is present and clickable.",
+    "result": "Passed"
+  },
+  {
+    "description": "Verify the 'List your property' link is present and clickable.",
+    "result": "Failed"
+  },
+  {
+    "description": "Verify the 'Airport taxis' navigation link is present and clickable.",
+    "result": "Failed"
+  },
+  {
+    "description": "Verify the 'Language: English (US)' link is present and clickable.",
+    "result": "Passed"
+  },
+  {
+    "description": "Verify the '2 adults \u00b7 0 children \u00b7 1 room' link is present and clickable.",
+    "result": "Failed"
+  }
+]
