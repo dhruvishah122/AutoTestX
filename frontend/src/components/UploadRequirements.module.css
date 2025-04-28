@@ -1,0 +1,143 @@
+/* Container holding the whole component */
+.container {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+/* Heading style */
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #60a5fa; /* blue-400 */
+}
+
+/* Drag and Drop Area */
+.dragDropArea {
+  border: 2px dashed #60a5fa;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dragDropArea:hover {
+  background-color: #2a2a2a;
+}
+
+.dragDropLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ccc;
+}
+
+/* Input field */
+.inputField {
+  margin-bottom: 2rem;
+}
+
+.inputField input {
+  width: 100%;
+  padding: 0.8rem;
+  background: #2a2a2a;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Generate Button */
+.generateButton {
+  background-color: #247fc9; /* blue-500 */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.generateButton:hover {
+  background-color: #3c71e5; /* darker blue */
+  transform: scale(1.05);
+}
+
+/* Test Case Container */
+.testCaseContainer {
+  margin-top: 20px;
+  max-height: 375px; /* Control the max height of the container */
+  overflow-y: auto; /* Make the container scrollable */
+  padding-right: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+
+  /* Scrollbar styling */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #247fc9 #1f1f1f; /* For Firefox, using blue-500 and dark background */
+}
+
+/* Scrollbar Styling for Webkit Browsers (Chrome, Safari, Edge) */
+.testCaseContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.testCaseContainer::-webkit-scrollbar-thumb {
+  background-color: #247fc9; /* blue-500 */
+  border-radius: 10px;
+  border: 3px solid #1f1f1f; /* Dark background to separate thumb from track */
+}
+
+.testCaseContainer::-webkit-scrollbar-track {
+  background-color: #2a2a2a; /* Dark gray */
+  border-radius: 10px;
+}
+
+/* Test Case Row */
+.testCaseRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #2e2e2e;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+/* Icon for Test Case */
+.testCaseIcon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #4caf50;
+}
+
+/* Description text */
+.testCaseDescription {
+  flex-grow: 1;
+  font-size: 14px;
+  color: white;
+  word-wrap: break-word;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
